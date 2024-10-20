@@ -1,0 +1,9 @@
+{
+    "name": "crisentech-graphics",
+    "version": "0.1.0",
+    "title": "Crisentech Graphics",
+    "author": "Medio's Manifactory",
+    "description": "Graphics for Crisentech mod.",
+    "homepage": "https://github.com/Mediosmanufactory/Cisentech",
+    "factorio_version": "1.1"
+}

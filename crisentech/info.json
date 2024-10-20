@@ -1,0 +1,13 @@
+{
+    "name": "crisentech",
+    "version": "0.1.0",
+    "title": "Crisentech ALPHA",
+    "author": "Medio's Manifactory",
+    "description": "Overhaul mod for Factorio adding a lot of questionable stuff.",
+    "homepage": "https://github.com/Mediosmanufactory/Cisentech",
+    "factorio_version": "1.1",
+    "dependencies": [
+        "crisentech-graphics",
+        "? discovery_tree"
+    ]
+}
