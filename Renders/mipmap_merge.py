@@ -1,12 +1,10 @@
 from PIL import Image
 import os
 
-output = "items/areogel"
+output = "mipmap"
 
 # Lista plików obrazów do połączenia
-images = [
-    Image.open(f"Renders/render{size}.png") for size in [64, 32, 16, 8]
-]
+images = [ Image.open(f"Renders/render{size}.png") for size in [64, 32, 16, 8] ]
 
 # Obliczenie rozmiaru końcowego obrazu (spritesheetu)
 sheet_width = sum(img.width for img in images)
@@ -23,6 +21,6 @@ for img in images:
 
 # Zapisanie wynikowego spritesheetu
 output += ".png"
-spritesheet.save(os.path.join(f"crisentech-graphics/{output}"))
+spritesheet.save(os.path.join(f"Renders/{output}"))
 
 print("Spritesheet został utworzony!")

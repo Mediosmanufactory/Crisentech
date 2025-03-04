@@ -1,0 +1,9 @@
+{
+    "name": "crisentech-assets",
+    "version": "0.1.0",
+    "title": "Crisentech Assets",
+    "author": "Medio's Manufactury",
+    "description": "Assets for Crisentech mod.",
+    "homepage": "https://crisentech.miraheze.org/wiki/Main_Page",
+    "factorio_version": "2.0"
+}
