@@ -7,8 +7,10 @@
     "homepage": "https://crisentech.miraheze.org/wiki/Main_Page",
     "factorio_version": "2.0",
     "dependencies": [
-        "crisentech-assets",
+        "crisentech-assets >= 0.1.0",
         "quality_glassware",
-        "discovery_tree"
+        "discovery_tree",
+        "ChangeInserterDropLane >= 1.1.0",
+        "simply-greenhouse"
     ]
 }

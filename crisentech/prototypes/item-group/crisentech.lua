@@ -4,7 +4,7 @@ data:extend({
         name = "crisentech",
         order = "e2",
         
-        icon = crisentech.graphics.get("item/areogel"),
+        icon = crisentech.graphics.get("item/pink-quartz"),
         icon_mipmaps = 4
     }
 })

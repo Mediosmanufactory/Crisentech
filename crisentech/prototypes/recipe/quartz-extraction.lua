@@ -3,7 +3,7 @@ data.extend({
         type = "recipe",
         name = "quartz-extraction",
         
-        subgroup = "ct-silicon",
+        subgroup = "ct-quartz",
         order = "a",
         
         icon = crisentech.graphics.get("recipe/quartz-extraction"),
@@ -12,22 +12,24 @@ data.extend({
         category = "smelting",
 
         ingredients = {
-            { type="item", name="stone", amount=1 },
+            {
+                type="item",
+                name="stone",
+                amount=1
+            }
         },
 
         results = {
             {
                 type="item",
                 name="pink-quartz",
-                amount_min=1,
-                amount_max=1,
+                amount=1,
                 probability=0.25
             },
             {
                 type="item",
                 name="white-quartz",
-                amount_min=1,
-                amount_max=1,
+                amount=1,
                 probability=0.75
             }
         }
